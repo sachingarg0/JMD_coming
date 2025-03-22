@@ -4,7 +4,7 @@ const path = require('path');
 
 // Initialize the app
 const app = express();
-const PORT = 3000;
+const PORT = 7000;
 
 // Serve static HTML file
 app.use(express.static(path.join(__dirname, 'public')));
